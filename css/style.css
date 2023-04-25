@@ -1,0 +1,86 @@
+/*This is style sheet code*/
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color:white;
+    width: 100%;
+}
+#menu-row{
+    width: 100%;
+    
+}
+.row{
+    --bs-gutter-x: 0rem;
+}
+
+ul{
+    list-style-type: none;
+    
+}
+li{
+    float: left;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+#logo{
+    max-width: inherit;
+    height: 7rem;
+}
+
+#login-link{
+    float: right;
+    margin-top: 2.5rem;
+    margin-right: 5rem;
+    border: 1px black solid;
+    padding:3px 13px 3px 13px;
+    border-radius: 4px;
+}
+#login-link:hover{
+    background-color: aqua;
+    animation-delay: 10s;
+    border: 2px white solid;
+}
+
+#menu-row ul{
+    background-color: black;
+}
+
+#menu-row li{
+    padding:0.8% 4% 0.8% 4%;
+    position: relative;
+    color: aliceblue;
+    text-align: center;
+}
+#menu-row li:hover{
+    background-color:aqua;
+    color: black;
+}
+#body-img{
+    width: 100%;
+}
+#body-description .section1{
+    margin-top: 2.2rem;
+    font-size: medium;
+    font-style: normal;
+    text-align: left;
+    padding: 10px 20px 10px 20px;
+}
+#body-description section{
+    font-size: medium;
+    font-style: normal;
+    text-align: left;
+    padding: 10px 20px 10px 20px;
+}
+
+#footer-row{
+    background-color: black;
+    color: white;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
