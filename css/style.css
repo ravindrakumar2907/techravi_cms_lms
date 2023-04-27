@@ -1,11 +1,37 @@
 /*This is style sheet code*/
 *{
-    padding: 0%;
-    margin: 0%;
+    padding: 0;
+    margin: 0;
+    overflow: none;
 }
+/*
+https://www.digitalocean.com/community/tutorials/css-scrollbars
+*/
+/* Works on Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #6F319A;
+  }
+  
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: #6F319A;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: #6F319A;
+    border-radius: 20px;
+    border: 3px solid #6F319A;
+  }
 body{
     background-color:white;
-    width: 100%;
+    scrollbar-width: thin;          /* "auto" or "thin" */
+    scrollbar-color:#6F319A;   /* scroll thumb and track */ 
+  
 }
 #menu-row{
     width: 100%;
@@ -27,6 +53,10 @@ a{
     color: aliceblue;
     cursor: pointer;
 }
+p{
+    text-decoration: none;
+    overflow: auto;
+}
 
 #logo{
     max-width: inherit;
@@ -37,18 +67,22 @@ a{
     float: right;
     margin-top: 2.5rem;
     margin-right: 5rem;
-    border: 1px black solid;
-    padding:3px 13px 3px 13px;
-    border-radius: 4px;
+    background: #6F319A;
+    border-radius: 5px;
+    border-color: white;
 }
 #login-link:hover{
-    background-color: aqua;
-    animation-delay: 10s;
-    border: 2px white solid;
+    background-color: #ea1d63;
+    /*animation-delay: 10s;*/
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: 5ms;
+    transition-delay: 5ms;
+    border-radius: 10px;
 }
 
 #menu-row ul{
-    background-color: black;
+    background-color: #6F319A;/* #67487d  #6F319A*/
 }
 
 #menu-row li{
@@ -58,18 +92,17 @@ a{
     text-align: center;
 }
 #menu-row li:hover{
-    background-color:aqua;
+    background-color:#ea1d63;
     color: black;
 }
 #body-img{
     width: 100%;
+    height: 80%;
 }
 #body-description .section1{
-    margin-top: 2.2rem;
     font-size: medium;
     font-style: normal;
-    text-align: left;
-    padding: 10px 20px 10px 20px;
+    text-align: justify;
 }
 #body-description section{
     font-size: medium;
@@ -79,8 +112,12 @@ a{
 }
 
 #footer-row{
-    background-color: black;
+    background-color: #6F319A;
     color: white;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+}
+
+#login-img{
+    width: inherit;
 }
