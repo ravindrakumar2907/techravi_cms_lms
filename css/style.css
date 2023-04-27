@@ -121,3 +121,34 @@ p{
 #login-img{
     width: inherit;
 }
+
+#software-info-body-row h2 {
+    left: 10px;
+    text-align: left;
+  }
+  #software-info-body-row section p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+  #software-info-body-row header {
+    text-align: left;
+    width: 80%;
+    padding-left: 5%;
+    padding-top: 10px;
+  }
+  #software-info-body-row section a {
+    text-decoration: none;
+    color: #67487d;
+    cursor: pointer;
+  }
+  #software-info-body-row section {
+    width: 90%;
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 1%;
+  }
