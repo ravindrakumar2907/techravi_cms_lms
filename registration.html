@@ -28,7 +28,7 @@
       <!-- This row is for Main Content-->
       <div class="row" id="menu-row">
         <ul>
-          <li><a href="#" target="_self">Home</a></li>
+          <li><a href="index.html" target="_self">Home</a></li>
           <li>
             <a href="software_course.html" target="_self">Software Courses</a>
           </li>
@@ -87,6 +87,15 @@
               />
             </div>
             <div class="mb-3">
+              <label for="forLastName" class="form-label">Select Course</label>
+              <select class="form-control" name="course" id="course">
+                <option value="java">Java</option>
+                <option value="nodejs">NodeJs</option>
+                <option value="python">Python</option>
+                <option value="php">Php</option>
+              </select>
+            </div>
+            <div class="mb-3">
               <label for="forPassword" class="form-label">Password</label>
               <input
                 type="password"
@@ -107,6 +116,18 @@
               />
             </div>
 
+            <div class="form-check mb-3">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="flexCheckDefault"
+              />
+              <label class="form-check-label" for="flexCheckDefault">
+                Accept Our Tearms and Conditions
+                <a href="" style="color: #6f319a">Click to Read</a>
+              </label>
+            </div>
             <div class="col-auto">
               <button type="submit" class="btn btn-primary mb-3">
                 Sign Up
