@@ -219,3 +219,7 @@ p{
   .login-form button:hover{
     background-color: #ea1d63;
   }
+
+  #software-info-body-row section h5{
+    text-align: left;
+  }
