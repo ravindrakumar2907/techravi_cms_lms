@@ -33,30 +33,41 @@ body{
     scrollbar-color:#6F319A;   /* scroll thumb and track */ 
   
 }
+.row{
+  --bs-gutter-x: 0rem;
+}
+
+ul{
+  list-style-type: none;
+  
+}
+li{
+  float: left;
+}
+a{
+  text-decoration: none;
+  color: aliceblue;
+  cursor: pointer;
+}
+p{
+  text-decoration: none;
+  overflow: auto;
+}
 #menu-row{
     width: 100%;
     
 }
-.row{
-    --bs-gutter-x: 0rem;
+#menu-row li{
+  padding:0.8% 4% 0.8% 4%;
+  position: relative;
+  color: aliceblue;
+  text-align: center;
+}
+#menu-row li:hover{
+  background-color:#ea1d63;
+  color: black;
 }
 
-ul{
-    list-style-type: none;
-    
-}
-li{
-    float: left;
-}
-a{
-    text-decoration: none;
-    color: aliceblue;
-    cursor: pointer;
-}
-p{
-    text-decoration: none;
-    overflow: auto;
-}
 
 #logo{
     max-width: inherit;
@@ -85,16 +96,7 @@ p{
     background-color: #6F319A;/* #67487d  #6F319A*/
 }
 
-#menu-row li{
-    padding:0.8% 4% 0.8% 4%;
-    position: relative;
-    color: aliceblue;
-    text-align: center;
-}
-#menu-row li:hover{
-    background-color:#ea1d63;
-    color: black;
-}
+
 #body-img{
     width: 100%;
     height: 80%;
