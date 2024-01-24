@@ -1,229 +1,272 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>TechRavi</title>
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-    <style></style>
-  </head>
-  <body>
-    <div class=".container-fluid">
-      <!-- This row is for logo and banner-->
-      <!-- This row is for Menu-->
-      <div class="row h-20" id="logo-row">
-        <div class="col-2">
-          <img id="logo" alt="TechRavi" src="images/logo-black.png" />
-        </div>
-        <div class="col">
-          <a href="login.html" class="btn btn-primary" id="login-link">Login</a>
-        </div>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TechRavi</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css" />
+  <style></style>
+</head>
+
+<body>
+  <div class=".container-fluid">
+    <!-- This row is for logo and banner-->
+    <!-- This row is for Menu-->
+    <div class="row h-20" id="logo-row">
+      <div class="col-2">
+        <img id="logo" alt="TechRavi" src="images/logo-black.png" />
       </div>
-      <!-- This row is for Main Content-->
-      <div class="row" id="menu-row">
-        <ul>
-          <li><a href="index.html" target="_self">Home</a></li>
-          <li>
-            <a href="software_course.html" target="_self">Software Courses</a>
-          </li>
-          <li><a href="software_info.html" target="_self">Software info</a></li>
-          <li><a href="about.html" target="_self">About Us</a></li>
-          <li><a href="registration.html" target="_self">Registration</a></li>
-          <li><a href="contact_us.html" target="_self">Contact Us</a></li>
-          <li><a href="#">Blogs</a></li>
-        </ul>
-      </div>
-
-      <!-- This row is for Main Content 1-->
-      <div class="row h-60" id="software-info-body-row">
-        <header>
-          <h2>Software Information</h2>
-          <p>
-            In this section, you will get information about open source
-            technologies
-          </p>
-        </header>
-
-        <section>
-          <h5>Java</h5>
-
-          <p>
-            In this section, you will find information on Java, a popular open
-            source programming language. You will find links to download the
-            latest version of the Java Development Kit (JDK), as well as steps
-            to install it on different operating systems. We also offer courses
-            on Java programming, Java web development using frameworks like
-            Spring and Struts, and more.
-          </p>
-
-          <p>
-            <strong>Links:</strong>
-            <a
-              href="https://www.oracle.com/java/technologies/javase-downloads.html"
-              >Download Java Development Kit (JDK)</a
-            >
-          </p>
-        </section>
-
-        <section>
-          <h5>Node.js</h5>
-
-          <p>
-            In this section, you will find information on Node.js, a popular
-            open source JavaScript runtime. You will find links to download the
-            latest version of Node.js, as well as steps to install it on
-            different operating systems. We also offer courses on Node.js
-            programming, building web applications using frameworks like Express
-            and Nest.js, and more.
-          </p>
-
-          <p>
-            <strong>Links:</strong>
-            <a href="https://nodejs.org/en/download/">Download Node.js</a>
-          </p>
-        </section>
-
-        <section>
-          <h5>PHP</h5>
-
-          <p>
-            In this section, you will find information on PHP, a popular open
-            source server-side scripting language. You will find links to
-            download the latest version of PHP, as well as steps to install it
-            on different operating systems. We also offer courses on PHP
-            programming, building web applications using frameworks like Laravel
-            and Symfony, and more.
-          </p>
-
-          <p>
-            <strong>Links:</strong>
-            <a href="https://www.php.net/downloads.php">Download PHP</a>
-          </p>
-        </section>
-
-        <section>
-          <h5>Python</h5>
-
-          <p>
-            In this section, you will find information on Python, a popular open
-            source programming language. You will find links to download the
-            latest version of Python, as well as steps to install it on
-            different operating systems. We also offer courses on Python
-            programming, data analysis and visualization using libraries like
-            NumPy and Pandas, and more.
-          </p>
-
-          <p>
-            <strong>Links:</strong>
-            <a href="https://www.python.org/downloads/">Download Python</a>
-          </p>
-        </section>
-
-        <section>
-          <h2>Linux</h2>
-
-          <p>
-            In this section, you will find information on Linux, a popular open
-            source operating system. You will also find links to download
-            different distributions of Linux and steps to install them on
-            different operating systems, such as Windows and macOS. We also
-            offer courses on Linux system administration, shell scripting, and
-            more.
-          </p>
-
-          <p>
-            <strong>Links:</strong>
-            <a href="https://www.linux.org/">Official Website</a>,
-            <a href="https://ubuntu.com/download">Download Ubuntu</a>,
-            <a href="https://www.linuxmint.com/download.php"
-              >Download Linux Mint</a
-            >
-          </p>
-        </section>
-
-        <section>
-          <h5>Apache</h5>
-
-          <p>
-            In this section, you will find information on Apache, a popular open
-            source web server software. You will find links to the official
-            Apache website, where you can download the latest version of Apache.
-            We also offer courses on configuring and managing Apache, as well as
-            developing web applications using Apache.
-          </p>
-
-          <p>
-            <strong>Links:</strong>
-            <a href="https://httpd.apache.org/">Official Website</a>,
-            <a href="https://httpd.apache.org/download.cgi">Download Apache</a>
-          </p>
-        </section>
-
-        <section>
-          <h5>MySQL</h5>
-
-          <p>
-            In this section, you will find information on MySQL, a popular open
-            source relational database management system. You will find links to
-            download the latest version of MySQL, as well as steps to install it
-            on different operating systems. We also offer courses on MySQL
-            database administration, SQL programming, and more.
-          </p>
-
-          <p>
-            <strong>Links:</strong>
-            <a href="https://www.mysql.com/">Official Website</a>,
-            <a href="https://dev.mysql.com/downloads/mysql/">Download MySQL</a>
-          </p>
-        </section>
-
-        <section>
-          <h5>WordPress</h5>
-
-          <p>
-            In this section, you will find information on WordPress, a popular
-            open source content management system for websites. You will find
-            links to download the latest version of WordPress, as well as steps
-            to install it on different operating systems. We also offer courses
-            on developing and customizing WordPress websites, as well as
-            managing WordPress installations.
-          </p>
-
-          <p>
-            <strong>Links:</strong>
-            <a href="https://wordpress.org/">Official Website</a>,
-            <a href="https://wordpress.org/download/"> Download</a>
-          </p>
-        </section>
-
-        <p style="padding: 5%">
-          Thank you for exploring our Open Source Software Courses page! We hope
-          you find the information and resources provided here helpful in
-          learning more about open source software and how to use it. If you
-          have any questions or feedback, please don't hesitate to contact us.
-        </p>
-      </div>
-
-      <!-- This row is for Footer-->
-      <div class="row" id="footer-row">
-        <div class="col">
-          Copyright 2023-2024 by TechRavi. All Rights Reserved to
-          www.techravi.online
-        </div>
+      <div class="col">
+        <a href="login.html" class="btn btn-primary" id="login-link">Login</a>
       </div>
     </div>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-      crossorigin="anonymous"
-    ></script>
-    <script src="js/main.js"></script>
-  </body>
+    <!-- This row is for Main Content-->
+    <div class="row" id="menu-row">
+      <ul>
+        <li><a href="index.html" target="_self">Home</a></li>
+        <li>
+          <a href="software_course.html" target="_self">Software Courses</a>
+        </li>
+        <li><a href="software_info.html" target="_self">Software info</a></li>
+        <li><a href="about.html" target="_self">About Us</a></li>
+        <li><a href="registration.html" target="_self">Registration</a></li>
+        <li><a href="contact_us.html" target="_self">Contact Us</a></li>
+        <li><a href="#">Blogs</a></li>
+      </ul>
+    </div>
+
+    <!-- This row is for Main Content 1-->
+    <div class="row h-60" id="software-info-body-row">
+      <header>
+        <h2>Software Information</h2>
+        <p>
+          In this section, you will get information about open source
+          technologies
+        </p>
+      </header>
+
+      <section>
+        <h5>Java</h5>
+
+        <p>
+          In this section, you will find information on Java, a popular open
+          source programming language. You will find links to download the
+          latest version of the Java Development Kit (JDK), as well as steps
+          to install it on different operating systems. We also offer courses
+          on Java programming, Java web development using frameworks like
+          Spring and Struts, and more.
+        </p>
+
+        <p>
+          <strong>Links:</strong>
+          <a href="https://www.oracle.com/java/technologies/javase-downloads.html">Download Java Development Kit
+            (JDK)</a>
+        </p>
+      </section>
+
+      <section>
+        <h5>Node.js</h5>
+
+        <p>
+          In this section, you will find information on Node.js, a popular
+          open source JavaScript runtime. You will find links to download the
+          latest version of Node.js, as well as steps to install it on
+          different operating systems. We also offer courses on Node.js
+          programming, building web applications using frameworks like Express
+          and Nest.js, and more.
+        </p>
+
+        <p>
+          <strong>Links:</strong>
+          <a href="https://nodejs.org/en/download/">Download Node.js</a>
+        </p>
+      </section>
+
+      <section>
+        <h5>PHP</h5>
+
+        <p>
+          In this section, you will find information on PHP, a popular open
+          source server-side scripting language. You will find links to
+          download the latest version of PHP, as well as steps to install it
+          on different operating systems. We also offer courses on PHP
+          programming, building web applications using frameworks like Laravel
+          and Symfony, and more.
+        </p>
+
+        <p>
+          <strong>Links:</strong>
+          <a href="https://www.php.net/downloads.php">Download PHP</a>
+        </p>
+      </section>
+
+      <section>
+        <h5>Python</h5>
+
+        <p>
+          In this section, you will find information on Python, a popular open
+          source programming language. You will find links to download the
+          latest version of Python, as well as steps to install it on
+          different operating systems. We also offer courses on Python
+          programming, data analysis and visualization using libraries like
+          NumPy and Pandas, and more.
+        </p>
+
+        <p>
+          <strong>Links:</strong>
+          <a href="https://www.python.org/downloads/">Download Python</a>
+        </p>
+      </section>
+
+      <section>
+        <h2>Linux</h2>
+
+        <p>
+          In this section, you will find information on Linux, a popular open
+          source operating system. You will also find links to download
+          different distributions of Linux and steps to install them on
+          different operating systems, such as Windows and macOS. We also
+          offer courses on Linux system administration, shell scripting, and
+          more.
+        </p>
+
+        <p>
+          <strong>Links:</strong>
+          <a href="https://www.linux.org/">Official Website</a>,
+          <a href="https://ubuntu.com/download">Download Ubuntu</a>,
+          <a href="https://www.linuxmint.com/download.php">Download Linux Mint</a>
+        </p>
+      </section>
+
+      <section>
+        <h5>Apache</h5>
+
+        <p>
+          In this section, you will find information on Apache, a popular open
+          source web server software. You will find links to the official
+          Apache website, where you can download the latest version of Apache.
+          We also offer courses on configuring and managing Apache, as well as
+          developing web applications using Apache.
+        </p>
+
+        <p>
+          <strong>Links:</strong>
+          <a href="https://httpd.apache.org/">Official Website</a>,
+          <a href="https://httpd.apache.org/download.cgi">Download Apache</a>
+        </p>
+      </section>
+
+      <section>
+        <h5>MySQL</h5>
+
+        <p>
+          In this section, you will find information on MySQL, a popular open
+          source relational database management system. You will find links to
+          download the latest version of MySQL, as well as steps to install it
+          on different operating systems. We also offer courses on MySQL
+          database administration, SQL programming, and more.
+        </p>
+
+        <p>
+          <strong>Links:</strong>
+          <a href="https://www.mysql.com/">Official Website</a>,
+          <a href="https://dev.mysql.com/downloads/mysql/">Download MySQL</a>
+        </p>
+      </section>
+
+      <section>
+        <h5>WordPress</h5>
+
+        <p>
+          In this section, you will find information on WordPress, a popular
+          open source content management system for websites. You will find
+          links to download the latest version of WordPress, as well as steps
+          to install it on different operating systems. We also offer courses
+          on developing and customizing WordPress websites, as well as
+          managing WordPress installations.
+        </p>
+
+        <p>
+          <strong>Links:</strong>
+          <a href="https://wordpress.org/">Official Website</a>,
+          <a href="https://wordpress.org/download/"> Download</a>
+        </p>
+      </section>
+
+      <p style="padding: 5%">
+        Thank you for exploring our Open Source Software Courses page! We hope
+        you find the information and resources provided here helpful in
+        learning more about open source software and how to use it. If you
+        have any questions or feedback, please don't hesitate to contact us.
+      </p>
+    </div>
+
+
+    <!-- footer start -->
+    <footer class="footer">
+      <!-- Left hand side image and CompanyName-->
+      <div class="l-footer">
+        <h1>
+          <img src="https://i.postimg.cc/y62wcLBq/logo.png" alt="TechRavi">
+        </h1>
+        <p>
+          Discover the best in software courses here! Expert-led learning, hands-on projects, and a supportive community
+          await. Level up your skills and build a successful career in software development with us</p>
+      </div>
+
+      <!-- Right hand side Links-->
+      <ul class="r-footer">
+        <li>
+          <h2>Quick Links</h2>
+          <ul class="box">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Pinterest</a></li>
+            <!-- <li><a href="#">Contract</a></li> -->
+          </ul>
+        </li>
+        <li>
+          <h2>Information</h2>
+          <ul class="box">
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Sales</a></li>
+            <!-- <li><a href="#">Contract</a></li> -->
+          </ul>
+        </li>
+        <li>
+          <h2>Information</h2>
+          <ul class="box">
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Sales</a></li>
+            <!-- <li><a href="#">Contract</a></li> -->
+          </ul>
+        </li>
+        <li>
+          <h2>Legal</h2>
+          <ul class="box">
+            <li><a href="privacyAndPolicy.html">Privacy Policy</a></li>
+            <li><a href="termsAndConditions.html">Terms of Use</a></li>
+            <li><a href="about.html">About</a></li>
+            <!-- <li><a href="#">Contract</a></li> -->
+          </ul>
+        </li>
+      </ul>
+      <div class="b-footer">
+        <p class="copy-right-p">&copy; 2023 Tech Ravi | All Rights Reserved</p>
+      </div>
+    </footer>
+    <!-- footer end -->
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+</body>
+
 </html>

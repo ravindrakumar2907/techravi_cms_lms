@@ -1,0 +1,171 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Online Education -TechRavi</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- Navigation start here-->
+  <nav class="navbar">
+    <div class="navbar-container container">
+      <input type="checkbox" name="" id="">
+      <div class="hamburger-lines">
+        <span class="line line1"></span>
+        <span class="line line2"></span>
+        <span class="line line3"></span>
+      </div>
+      <ul class="menu-items">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="sc.html">Software Courses</a></li>
+        <li><a href="workshop.html">Workshops</a></li>
+        <li><a href="testimonial.html">Testimonial</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <h1 class="logo">TechRavi</h1>
+    </div>
+  </nav>
+  <!-- Navigation end here-->
+
+  <section class="showcase-area workshop-showcase-area" id="workshop-page">
+    <div class="showcase-container">
+      <h1 class="main-title" id="home">Refresh your skill with our Workshops</h1>
+      <p>Empowering Minds, Illuminating Futures.</p>
+      <p>Your Path to Knowledge Begins Here!</p>
+      <!-- <a href="#food-menu" class="btn btn-primary">Explore our Courses</a> -->
+    </div>
+  </section>
+
+  <section id="workshop-page-id">
+    <div class="about-wrapper container">
+      <div class="about-text">
+        <p class="small">About Our Workshops</p>
+        <h2>We've been teaching best quality courses from last 2 years</h2>
+        <p>
+          Our educational institution has proudly been at the forefront of delivering top-notch courses that embody the
+          essence of quality education. Committed to excellence, we have consistently strived to provide our students
+          with the finest learning experiences, equipping them with knowledge and skills that transcend conventional
+          boundaries!
+        </p>
+      </div>
+      <div class="about-img">
+        <img src="./images/learn.jpg" width="500" alt="food" />
+      </div>
+    </div>
+  </section>
+
+
+  <section id="testimonials">
+    <h2 class="testimonial-title">Workshop Information</h2>
+    <div class="testimonial-container container">
+
+
+
+    </div>
+
+    </div>
+    <div class="more-testimonial-container">
+      <a href="#food-menu" class="btn btn-primary">Contact Us</a>
+    </div>
+
+  </section>
+
+
+  <!-- footer start -->
+  <footer class="footer">
+    <!-- Left hand side image and CompanyName-->
+    <div class="l-footer">
+      <h1>
+        <img src="https://i.postimg.cc/y62wcLBq/logo.png" alt="TechRavi">
+      </h1>
+      <p>
+        Discover the best in software courses here! Expert-led learning, hands-on projects, and a supportive community
+        await. Level up your skills and build a successful career in software development with us</p>
+    </div>
+
+    <!-- Right hand side Links-->
+    <ul class="r-footer">
+      <li>
+        <h2>Quick Links</h2>
+        <ul class="box">
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Pinterest</a></li>
+          <!-- <li><a href="#">Contract</a></li> -->
+        </ul>
+      </li>
+      <li>
+        <h2>Information</h2>
+        <ul class="box">
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Sales</a></li>
+          <!-- <li><a href="#">Contract</a></li> -->
+        </ul>
+      </li>
+      <li>
+        <h2>Information</h2>
+        <ul class="box">
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Sales</a></li>
+          <!-- <li><a href="#">Contract</a></li> -->
+        </ul>
+      </li>
+      <li>
+        <h2>Legal</h2>
+        <ul class="box">
+          <li><a href="privacyAndPolicy.html">Privacy Policy</a></li>
+          <li><a href="termsAndConditions.html">Terms of Use</a></li>
+          <li><a href="about.html">About</a></li>
+          <!-- <li><a href="#">Contract</a></li> -->
+        </ul>
+      </li>
+    </ul>
+    <div class="b-footer">
+      <p class="copy-right-p">&copy; 2023 Tech Ravi | All Rights Reserved</p>
+    </div>
+  </footer>
+  <!-- footer end -->
+</body>
+<!-- 
+    .................../ JS Code for smooth scrolling /...................... -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+  $(document).ready(function () {
+    // Add smooth scrolling to all links
+    $("a").on("click", function (event) {
+      // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== "") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+
+        // Store hash
+        var hash = this.hash;
+
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+        $("html, body").animate(
+          {
+            scrollTop: $(hash).offset().top,
+          },
+          800,
+          function () {
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          }
+        );
+      } // End if
+    });
+  });
+</script>
+
+</html>

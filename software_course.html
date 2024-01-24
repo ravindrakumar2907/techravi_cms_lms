@@ -1,246 +1,276 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>TechRavi</title>
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <div class=".container text-center">
-      <!-- This row is for logo and banner-->
-      <!-- This row is for Menu-->
-      <div class="row h-20" id="logo-row">
-        <div class="col-2">
-          <img id="logo" alt="TechRavi" src="images/logo-black.png" />
-        </div>
-        <div class="col">
-          <a href="login.html" class="btn btn-primary" id="login-link">Login</a>
-        </div>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TechRavi</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div class=".container text-center">
+    <!-- This row is for logo and banner-->
+    <!-- This row is for Menu-->
+    <div class="row h-20" id="logo-row">
+      <div class="col-2">
+        <img id="logo" alt="TechRavi" src="images/logo-black.png" />
       </div>
-      <!-- This row is for Main Content-->
-      <div class="row" id="menu-row">
-        <ul>
-          <li><a href="index.html" target="_self">Home</a></li>
-          <li>
-            <a href="software_course.html" target="_self">Software Courses</a>
-          </li>
-          <li><a href="software_info.html" target="_self">Software info</a></li>
-          <li><a href="about.html" target="_self">About Us</a></li>
-          <li><a href="registration.html" target="_self">Registration</a></li>
-          <li><a href="contact_us.html" target="_self">Contact Us</a></li>
-          <li><a href="#">Blogs</a></li>
-        </ul>
-      </div>
-
-      <!-- This row is for Main Content 1-->
-      <div class="row h-60" id="software-info-body-row">
-        <header>
-          <h2>Software Courses</h2>
-          <p>
-            Welcome to our IT courses page! We offer a variety of courses
-            designed to help you learn new IT skills and advance your career.
-            Our courses are taught by experienced instructors and cover a range
-            of topics from programming languages to IT infrastructure
-            management.
-          </p>
-          <p>We provide online training for Java, NodeJs, Python and Php.</p>
-        </header>
-
-        <section>
-          <h5>Java</h5>
-
-          <p>
-            Java is one of the most popular and widely used programming
-            languages in the world. Developed by Sun Microsystems (now owned by
-            Oracle Corporation), Java is a high-level, object-oriented language
-            that is designed to run on any platform without the need for
-            recompilation. This makes it a popular choice for building
-            everything from desktop applications to enterprise-level web
-            applications and mobile apps. Java's popularity is also due in part
-            to its huge ecosystem of libraries and frameworks, which make it
-            easy to build complex applications quickly and efficiently.
-          </p>
-          <p>
-            Java is known for its security and scalability, making it an ideal
-            choice for building applications that require high performance and
-            reliability. It is used in a wide range of industries, including
-            finance, healthcare, and technology, and is a popular language for
-            building large-scale enterprise applications. Java developers can
-            take advantage of a large community of fellow programmers, as well
-            as a wealth of resources and tools, making it an attractive language
-            to learn for anyone interested in software development. Whether you
-            are just starting out or looking to build on your existing skills,
-            Java is a versatile and powerful language that offers a wealth of
-            opportunities for developers.
-          </p>
-          <p>
-            <strong>Course Content:</strong>
-            <a href="pdf/Java-master-class.pdf" target="_blank"
-              >View Course Content</a
-            >
-          </p>
-          <p>
-            <strong>Links:</strong>
-            <a
-              href="https://www.oracle.com/java/technologies/javase-downloads.html"
-              target="_blank"
-              >Download Java Development Kit (JDK)</a
-            >
-          </p>
-        </section>
-
-        <section>
-          <h5>Node.js</h5>
-
-          <p>
-            Node.js is a popular open-source, cross-platform JavaScript runtime
-            environment that is designed to run server-side JavaScript
-            applications. It was created by Ryan Dahl in 2009 and has since
-            become a powerful tool for building fast, scalable, and efficient
-            web applications. Node.js is built on top of Google's V8 JavaScript
-            engine and uses an event-driven, non-blocking I/O model that makes
-            it particularly suited to building real-time web applications.
-          </p>
-          <p>
-            One of the key benefits of using Node.js is its ability to handle a
-            large number of simultaneous connections with minimal resources.
-            This makes it well-suited for building applications that require
-            real-time interactions, such as chat applications, gaming platforms,
-            and collaborative tools. Node.js is also popular among developers
-            for its ease of use and flexibility. It has a large and active
-            community of developers who have contributed to a vast ecosystem of
-            libraries and tools, making it easy to get started with and build
-            complex applications quickly and efficiently.
-          </p>
-          <p>
-            <strong>Course Content:</strong>
-            <a href="pdf/NodeJs-master-class.pdf" target="_blank"
-              >View Course Content</a
-            >
-          </p>
-          <p>
-            <strong>Links:</strong>
-            <a href="https://nodejs.org/en/download/" target="_blank"
-              >Download Node.js</a
-            >
-          </p>
-        </section>
-
-        <section>
-          <h5>PHP</h5>
-
-          <p>
-            PHP is a popular server-side scripting language that is used
-            primarily for web development. Originally created in 1994 by Rasmus
-            Lerdorf, PHP has evolved over the years to become a powerful and
-            versatile language that is used by millions of developers worldwide.
-            PHP is particularly well-suited to building dynamic, data-driven web
-            applications and is commonly used for tasks such as database
-            management, content management, and e-commerce.
-          </p>
-          <p>
-            One of the key strengths of PHP is its ease of use and versatility.
-            It is a language that can be easily learned by beginners, yet is
-            powerful enough to be used for building complex and scalable
-            applications. PHP is also supported by a vast and active community
-            of developers, which has contributed to a rich ecosystem of
-            libraries, frameworks, and tools that make it easy to get started
-            with and build applications quickly. With its strong focus on web
-            development and its broad range of applications, PHP is an essential
-            language for any developer who is interested in building dynamic and
-            engaging web applications.
-          </p>
-          <p>
-            <strong>Course Content:</strong>
-            <a href="pdf/Php-master-class.pdf" target="_blank"
-              >View Course Content</a
-            >
-          </p>
-          <p>
-            <strong>Links:</strong>
-            <a href="https://www.php.net/downloads.php" target="_blank"
-              >Download PHP</a
-            >
-          </p>
-        </section>
-
-        <section>
-          <h5>Python</h5>
-
-          <p>
-            Python is a high-level, general-purpose programming language that is
-            widely used for developing a wide range of applications. Created in
-            1991 by Guido van Rossum, Python is designed to be easy to learn,
-            read, and write, making it an ideal language for beginners and
-            experienced developers alike. Python is known for its simplicity,
-            elegance, and ease of use, and is often used for tasks such as web
-            development, data analysis, machine learning, and scientific
-            computing.
-          </p>
-          <p>
-            One of the key strengths of Python is its vast and active community
-            of developers, who have contributed to a huge ecosystem of libraries
-            and tools that make it easy to build complex applications quickly
-            and efficiently. This ecosystem includes popular frameworks such as
-            Django and Flask for web development, NumPy and SciPy for scientific
-            computing, and TensorFlow and PyTorch for machine learning. Python's
-            versatility and ease of use have also made it a popular language for
-            teaching programming, as it allows students to quickly build and
-            experiment with applications without needing to worry about
-            low-level details.
-          </p>
-          <p>
-            In addition to its versatility and ease of use, Python is also known
-            for its emphasis on readability and maintainability. This makes it a
-            popular choice for building large-scale applications, where code
-            readability and maintainability are essential for long-term success.
-            Python's popularity and flexibility have made it an essential
-            language for developers working in a wide range of industries, from
-            tech and finance to healthcare and beyond.
-          </p>
-          <p>
-            <strong>Course Content:</strong>
-            <a href="pdf/python-master-class.pdf" target="_blank"
-              >View Course Content</a
-            >
-          </p>
-          <p>
-            <strong>Links:</strong>
-            <a href="https://www.python.org/downloads/" target="_blank"
-              >Download Python</a
-            >
-          </p>
-        </section>
-
-        <p style="padding: 5%">
-          Thank you for exploring our Open Source Software Courses page! We hope
-          you find the information and resources provided here helpful in
-          learning more about open source software and how to use it. If you
-          have any questions or feedback, please don't hesitate to contact us.
-        </p>
-      </div>
-
-      <!-- This row is for Footer-->
-      <div class="row" id="footer-row">
-        <div class="col">
-          Copyright 2023-2024 by TechRavi. All Rights Reserved to
-          www.techravi.online
-        </div>
+      <div class="col">
+        <a href="login.html" class="btn btn-primary" id="login-link">Login</a>
       </div>
     </div>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-      crossorigin="anonymous"
-    ></script>
-    <script src="js/main.js"></script>
-  </body>
+    <!-- This row is for Main Content-->
+    <div class="row" id="menu-row">
+      <ul>
+        <li><a href="index.html" target="_self">Home</a></li>
+        <li>
+          <a href="software_course.html" target="_self">Software Courses</a>
+        </li>
+        <li><a href="software_info.html" target="_self">Software info</a></li>
+        <li><a href="about.html" target="_self">About Us</a></li>
+        <li><a href="registration.html" target="_self">Registration</a></li>
+        <li><a href="contact_us.html" target="_self">Contact Us</a></li>
+        <li><a href="#">Blogs</a></li>
+      </ul>
+    </div>
+
+    <!-- This row is for Main Content 1-->
+    <div class="row h-60" id="software-info-body-row">
+      <header>
+        <h2>Software Courses</h2>
+        <p>
+          Welcome to our IT courses page! We offer a variety of courses
+          designed to help you learn new IT skills and advance your career.
+          Our courses are taught by experienced instructors and cover a range
+          of topics from programming languages to IT infrastructure
+          management.
+        </p>
+        <p>We provide online training for Java, NodeJs, Python and Php.</p>
+      </header>
+
+      <section>
+        <h5>Java</h5>
+
+        <p>
+          Java is one of the most popular and widely used programming
+          languages in the world. Developed by Sun Microsystems (now owned by
+          Oracle Corporation), Java is a high-level, object-oriented language
+          that is designed to run on any platform without the need for
+          recompilation. This makes it a popular choice for building
+          everything from desktop applications to enterprise-level web
+          applications and mobile apps. Java's popularity is also due in part
+          to its huge ecosystem of libraries and frameworks, which make it
+          easy to build complex applications quickly and efficiently.
+        </p>
+        <p>
+          Java is known for its security and scalability, making it an ideal
+          choice for building applications that require high performance and
+          reliability. It is used in a wide range of industries, including
+          finance, healthcare, and technology, and is a popular language for
+          building large-scale enterprise applications. Java developers can
+          take advantage of a large community of fellow programmers, as well
+          as a wealth of resources and tools, making it an attractive language
+          to learn for anyone interested in software development. Whether you
+          are just starting out or looking to build on your existing skills,
+          Java is a versatile and powerful language that offers a wealth of
+          opportunities for developers.
+        </p>
+        <p>
+          <strong>Course Content:</strong>
+          <a href="pdf/Java-master-class.pdf" target="_blank">View Course Content</a>
+        </p>
+        <p>
+          <strong>Links:</strong>
+          <a href="https://www.oracle.com/java/technologies/javase-downloads.html" target="_blank">Download Java
+            Development Kit (JDK)</a>
+        </p>
+      </section>
+
+      <section>
+        <h5>Node.js</h5>
+
+        <p>
+          Node.js is a popular open-source, cross-platform JavaScript runtime
+          environment that is designed to run server-side JavaScript
+          applications. It was created by Ryan Dahl in 2009 and has since
+          become a powerful tool for building fast, scalable, and efficient
+          web applications. Node.js is built on top of Google's V8 JavaScript
+          engine and uses an event-driven, non-blocking I/O model that makes
+          it particularly suited to building real-time web applications.
+        </p>
+        <p>
+          One of the key benefits of using Node.js is its ability to handle a
+          large number of simultaneous connections with minimal resources.
+          This makes it well-suited for building applications that require
+          real-time interactions, such as chat applications, gaming platforms,
+          and collaborative tools. Node.js is also popular among developers
+          for its ease of use and flexibility. It has a large and active
+          community of developers who have contributed to a vast ecosystem of
+          libraries and tools, making it easy to get started with and build
+          complex applications quickly and efficiently.
+        </p>
+        <p>
+          <strong>Course Content:</strong>
+          <a href="pdf/NodeJs-master-class.pdf" target="_blank">View Course Content</a>
+        </p>
+        <p>
+          <strong>Links:</strong>
+          <a href="https://nodejs.org/en/download/" target="_blank">Download Node.js</a>
+        </p>
+      </section>
+
+      <section>
+        <h5>PHP</h5>
+
+        <p>
+          PHP is a popular server-side scripting language that is used
+          primarily for web development. Originally created in 1994 by Rasmus
+          Lerdorf, PHP has evolved over the years to become a powerful and
+          versatile language that is used by millions of developers worldwide.
+          PHP is particularly well-suited to building dynamic, data-driven web
+          applications and is commonly used for tasks such as database
+          management, content management, and e-commerce.
+        </p>
+        <p>
+          One of the key strengths of PHP is its ease of use and versatility.
+          It is a language that can be easily learned by beginners, yet is
+          powerful enough to be used for building complex and scalable
+          applications. PHP is also supported by a vast and active community
+          of developers, which has contributed to a rich ecosystem of
+          libraries, frameworks, and tools that make it easy to get started
+          with and build applications quickly. With its strong focus on web
+          development and its broad range of applications, PHP is an essential
+          language for any developer who is interested in building dynamic and
+          engaging web applications.
+        </p>
+        <p>
+          <strong>Course Content:</strong>
+          <a href="pdf/Php-master-class.pdf" target="_blank">View Course Content</a>
+        </p>
+        <p>
+          <strong>Links:</strong>
+          <a href="https://www.php.net/downloads.php" target="_blank">Download PHP</a>
+        </p>
+      </section>
+
+      <section>
+        <h5>Python</h5>
+
+        <p>
+          Python is a high-level, general-purpose programming language that is
+          widely used for developing a wide range of applications. Created in
+          1991 by Guido van Rossum, Python is designed to be easy to learn,
+          read, and write, making it an ideal language for beginners and
+          experienced developers alike. Python is known for its simplicity,
+          elegance, and ease of use, and is often used for tasks such as web
+          development, data analysis, machine learning, and scientific
+          computing.
+        </p>
+        <p>
+          One of the key strengths of Python is its vast and active community
+          of developers, who have contributed to a huge ecosystem of libraries
+          and tools that make it easy to build complex applications quickly
+          and efficiently. This ecosystem includes popular frameworks such as
+          Django and Flask for web development, NumPy and SciPy for scientific
+          computing, and TensorFlow and PyTorch for machine learning. Python's
+          versatility and ease of use have also made it a popular language for
+          teaching programming, as it allows students to quickly build and
+          experiment with applications without needing to worry about
+          low-level details.
+        </p>
+        <p>
+          In addition to its versatility and ease of use, Python is also known
+          for its emphasis on readability and maintainability. This makes it a
+          popular choice for building large-scale applications, where code
+          readability and maintainability are essential for long-term success.
+          Python's popularity and flexibility have made it an essential
+          language for developers working in a wide range of industries, from
+          tech and finance to healthcare and beyond.
+        </p>
+        <p>
+          <strong>Course Content:</strong>
+          <a href="pdf/python-master-class.pdf" target="_blank">View Course Content</a>
+        </p>
+        <p>
+          <strong>Links:</strong>
+          <a href="https://www.python.org/downloads/" target="_blank">Download Python</a>
+        </p>
+      </section>
+
+      <p style="padding: 5%">
+        Thank you for exploring our Open Source Software Courses page! We hope
+        you find the information and resources provided here helpful in
+        learning more about open source software and how to use it. If you
+        have any questions or feedback, please don't hesitate to contact us.
+      </p>
+    </div>
+
+
+    <!-- footer start -->
+    <footer class="footer">
+      <!-- Left hand side image and CompanyName-->
+      <div class="l-footer">
+        <h1>
+          <img src="https://i.postimg.cc/y62wcLBq/logo.png" alt="TechRavi">
+        </h1>
+        <p>
+          Discover the best in software courses here! Expert-led learning, hands-on projects, and a supportive community
+          await. Level up your skills and build a successful career in software development with us</p>
+      </div>
+
+      <!-- Right hand side Links-->
+      <ul class="r-footer">
+        <li>
+          <h2>Quick Links</h2>
+          <ul class="box">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Pinterest</a></li>
+            <!-- <li><a href="#">Contract</a></li> -->
+          </ul>
+        </li>
+        <li>
+          <h2>Information</h2>
+          <ul class="box">
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Sales</a></li>
+            <!-- <li><a href="#">Contract</a></li> -->
+          </ul>
+        </li>
+        <li>
+          <h2>Information</h2>
+          <ul class="box">
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Sales</a></li>
+            <!-- <li><a href="#">Contract</a></li> -->
+          </ul>
+        </li>
+        <li>
+          <h2>Legal</h2>
+          <ul class="box">
+            <li><a href="privacyAndPolicy.html">Privacy Policy</a></li>
+            <li><a href="termsAndConditions.html">Terms of Use</a></li>
+            <li><a href="about.html">About</a></li>
+            <!-- <li><a href="#">Contract</a></li> -->
+          </ul>
+        </li>
+      </ul>
+      <div class="b-footer">
+        <p class="copy-right-p">&copy; 2023 Tech Ravi | All Rights Reserved</p>
+      </div>
+    </footer>
+    <!-- footer end -->
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+</body>
+
 </html>

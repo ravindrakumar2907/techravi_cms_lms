@@ -1,121 +1,397 @@
-<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>TechRavi</title>
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <div class=".container-fluid text-center">
-      <!-- This row is for logo and banner-->
-      <!-- This row is for Menu-->
-      <div class="row h-20" id="logo-row">
-        <div class="col-2">
-          <img id="logo" alt="TechRavi" src="images/logo-black.png" />
-        </div>
-        <div class="col">
-          <a href="login.html" class="btn btn-primary" id="login-link">Login</a>
-        </div>
-      </div>
-      <!-- This row is for Main Content-->
-      <div class="row" id="menu-row">
-        <ul>
-          <li><a href="index.html" target="_self">Home</a></li>
-          <li>
-            <a href="software_course.html" target="_self">Software Courses</a>
-          </li>
-          <li><a href="software_info.html" target="_self">Software info</a></li>
-          <li><a href="about.html" target="_self">About Us</a></li>
-          <li><a href="registration.html" target="_self">Registration</a></li>
-          <li><a href="contact_us.html" target="_self">Contact Us</a></li>
-          <li><a href="#">Blogs</a></li>
-        </ul>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Online Education -TechRavi</title>
 
-      <!-- This row is for Main Content 1-->
-      <div class="row h-60" id="body-row">
-        <div id="body-description" class="col">
-          <section class="section1">
-            <p>
-              Welcome to TechRavi online learning platform! We offer a wide
-              range of courses and learning opportunities to help you achieve
-              your goals and advance your career.
-            </p>
-          </section>
-          <section>
-            <p class="text-wrap">
-              We provide hands on training on many software and web development
-              technologies. We provide project base learning and charge 80% less
-              than market price. After final project completion we provide
-              certificate for the course.
-            </p>
-            <p>
-              Our courses are designed to be engaging and interactive, with
-              expert instructors who are passionate about sharing their
-              knowledge and expertise. Whether you're looking to learn a new
-              skill, prepare for a certification exam, or simply expand your
-              knowledge, we have a course for you.
-            </p>
-          </section>
-        </div>
-        <div class="col">
-          <img id="body-img" src="images/online_leaning1.svg" />
-        </div>
-      </div>
 
-      <!-- This row is for Main Content 1-->
-      <div class="row h-60" id="body-row">
-        <div class="col">
-          <img id="body-img" src="images/learning1.svg" />
-        </div>
-        <div id="body-description" class="col">
-          <section class="section1">
-            <p class="text-wrap">
-              Our platform is easy to use and accessible from anywhere, so you
-              can learn at your own pace and on your own schedule. We offer a
-              variety of learning formats, including live online classes,
-              self-paced modules, and interactive workshops, to suit your
-              individual learning style and preferences.
-            </p>
-            <p>
-              At our online learning platform, we believe that education should
-              be accessible to everyone, regardless of their background or
-              circumstances. That's why we strive to make our courses affordable
-              and inclusive, so that everyone can benefit from our expert
-              instruction and guidance.
-            </p>
-            <p>
-              Join our community of learners today and discover the power of
-              online learning!
-            </p>
-          </section>
-          <section>
-            <h5>Our Mission</h5>
-            <p>Learn and grow together...</p>
-          </section>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+  <link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<body>
+  <!-- Navigation start here-->
+  <nav class="navbar">
+    <div class="navbar-container container">
+      <input type="checkbox" name="" id="">
+      <div class="hamburger-lines">
+        <span class="line line1"></span>
+        <span class="line line2"></span>
+        <span class="line line3"></span>
+      </div>
+      <ul class="menu-items">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="sc.html">Software Courses</a></li>
+        <li><a href="workshop.html">Workshops</a></li>
+        <li><a href="testimonial.html">Testimonial</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <h1 class="logo">TechRavi</h1>
+    </div>
+  </nav>
+  <!-- Navigation end here-->
+
+  <section class="showcase-area" id="showcase">
+    <div class="showcase-container">
+      <h1 class="main-title" id="home">Upgrade your skill with our Program</h1>
+      <p>Empowering Minds, Illuminating Futures.</p>
+      <p>Your Path to Knowledge Begins Here!</p>
+      <a href="sc.html" class="btn btn-primary">Explore our Courses</a>
+    </div>
+  </section>
+
+  <!-- About section start here-->
+  <section id="about">
+    <div class="about-wrapper container">
+      <div class="about-text">
+        <p class="small">About Us</p>
+        <h2>We've been teaching best quality courses from last 2 years</h2>
+        <p>
+          Our educational institution has proudly been at the forefront of delivering top-notch courses that embody the
+          essence of quality education. Committed to excellence, we have consistently strived to provide our students
+          with the finest learning experiences, equipping them with knowledge and skills that transcend conventional
+          boundaries!
+        </p>
+      </div>
+      <div class="about-img">
+        <img src="./images/learning-code.jpg" alt="food" />
+      </div>
+    </div>
+  </section>
+  <!-- About section end here-->
+
+  <!-- Types of Courses section start here-->
+  <section id="food">
+    <h2>Types of Courses</h2>
+    <div class="food-container container">
+      <div class="food-type fruite">
+        <div class="img-container">
+          <img class="radius-img" src="./images/website-dev.jpg" alt="error" />
+          <div class="img-content">
+            <h3>Frontend Development</h3>
+            <a href="https://en.wikipedia.org/wiki/Web_development" class="btn btn-primary" target="blank">learn
+              more</a>
+          </div>
         </div>
       </div>
-      <!-- This row is for Footer-->
-      <div class="row" id="footer-row">
-        <div class="col">
-          Copyright 2023-2024 by TechRavi. All Rights Reserved to
-          www.techravi.online
+      <div class="food-type vegetable">
+        <div class="img-container">
+          <img class="radius-img" src="./images/server-side-backend.png" alt="error" />
+          <div class="img-content">
+            <h3>Server-side Development</h3>
+            <a href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Introduction"
+              class="btn btn-primary" target="blank">learn more</a>
+          </div>
+        </div>
+      </div>
+      <div class="food-type grin">
+        <div class="img-container">
+          <img class="radius-img" src="./images/app-dev.jpg" alt="error" />
+          <div class="img-content">
+            <h3>Mobile Apps Development</h3>
+            <a href="https://en.wikipedia.org/wiki/Mobile_app_development" class="btn btn-primary" target="blank">learn
+              more</a>
+          </div>
         </div>
       </div>
     </div>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-      crossorigin="anonymous"
-    ></script>
-    <script src="js/main.js"></script>
-  </body>
+  </section>
+  <!-- Types of Courses section end here-->
+
+
+  <!--  This is courses section -->
+  <section id="workshop-area">
+    <h2 class="food-menu-heading">Our Courses</h2>
+    <div class="food-menu-container container">
+      <div class="food-menu-item">
+        <div class="food-img">
+          <img src="./images/web-dev-course.jpg" alt="" />
+        </div>
+        <div class="food-description">
+          <h2 class="food-titile">HTML/CSS/JS</h2>
+          <p>
+            This courses covers website development, how to create website, add styles and how to add dynamic
+            functionality to web pages.
+          </p>
+          <a class="food-price" href="">More Information</a>
+          <!-- <p class="food-price">Price: &#8377; 250</p> -->
+        </div>
+      </div>
+
+      <div class="food-menu-item">
+        <div class="food-img">
+          <img src="https://getwallpapers.com/wallpaper/full/6/7/d/491909.jpg" alt="error" />
+        </div>
+        <div class="food-description">
+          <h2 class="food-titile">Java</h2>
+          <p>
+            This courses covers Backend / Server side development, which includes API design and development.
+          </p>
+          <a class="food-price" href="">More Information</a>
+          <!-- <p class="food-price">Price: &#8377; 250</p> -->
+        </div>
+      </div>
+      <div class="food-menu-item">
+        <div class="food-img">
+          <img src="https://getwallpapers.com/wallpaper/full/f/8/4/145152.jpg" alt="" />
+        </div>
+        <div class="food-description">
+          <h2 class="food-titile">Python</h2>
+          <p>
+            This courses covers Backend / Server side development, which includes API design and development.
+          </p>
+          <a class="food-price" href="">More Information</a>
+          <!-- <p class="food-price">Price: &#8377; 250</p> -->
+        </div>
+      </div>
+      <div class="food-menu-item">
+        <div class="food-img">
+          <img src="https://externlabs.com/blogs/wp-content/uploads/2021/12/2400%D1%851260-rw-blog-node-js.png"
+            alt="" />
+        </div>
+        <div class="food-description">
+          <h2 class="food-titile">NodeJs</h2>
+          <p>
+            This courses covers Backend / Server side development, which includes API design and development.
+          </p>
+          <a class="food-price" href="">More Information</a>
+          <!-- <p class="food-price">Price: &#8377; 250</p> -->
+        </div>
+      </div>
+      <div class="food-menu-item">
+        <div class="food-img">
+          <img src="./images/php.jpg" alt="" />
+        </div>
+        <div class="food-description">
+          <h2 class="food-titile">Php</h2>
+          <p>
+            This courses covers Backend / Server side development, which includes API design and development.
+          </p>
+          <a class="food-price" href="">More Information</a>
+          <!-- <p class="food-price">Price: &#8377; 250</p> -->
+        </div>
+      </div>
+      <div class="food-menu-item">
+        <div class="food-img">
+          <img src="./images/android.jpg" alt="" />
+        </div>
+        <div class="food-description">
+          <h2 class="food-titile">Android Development</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
+            quae.
+          </p>
+          <a class="food-price" href="">More Information</a>
+          <!-- <p class="food-price">Price: &#8377; 250</p> -->
+        </div>
+
+
+      </div>
+
+    </div>
+    <div class="more-testimonial-container mb-4">
+      <a href="sc.html" class="btn btn-primary mb-2">More About Courses</a>
+    </div>
+  </section>
+
+  <!--   courses section end here -->
+
+  <!--   Workshop section starts here -->
+  <section id="workshop" class="workshop-area">
+    <div class="workshop-wrapper container">
+
+      <div class="workshop-text">
+        <h2 class="">Workshops</h2>
+        <h3>Expert guidance, hands-on activities, elevate skills, transformative learning experience.</h3>
+        <p>
+          Step into a world of learning at our workshop, designed to make complex ideas easy to understand. Our seasoned
+          experts are here to guide you through hands-on activities, ensuring that every participant gains a strong
+          grasp of the subject matter. We prioritize the best quality in both content and delivery, fostering an
+          environment where questions are encouraged, and everyone is empowered to explore and grow. Join us in this
+          immersive experience, and let's unlock new levels of understanding and skill together!
+        </p>
+        <a href="workshop.html" target="_blank" class="btn btn-primary">More about workshop</a>
+      </div>
+      <div class="workshop-img">
+        <img src="./images/learning-code.jpg" alt="food" />
+      </div>
+    </div>
+  </section>
+  <!--   Workshop section end here -->
+
+  <section id="testimonials">
+    <h2 class="testimonial-title">What Our Students Say</h2>
+    <div class="testimonial-container container">
+      <div class="testimonial-box">
+        <div class="customer-detail">
+          <div class="customer-photo">
+            <img class="mb-4" src="https://i.postimg.cc/5Nrw360Y/male-photo1.jpg" alt="" />
+            <p class="customer-name">Ross Lee</p>
+          </div>
+        </div>
+        <div class="star-rating">
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+        </div>
+        <p class="testimonial-text">
+          I like the way you explain the concept, you teach everything practically which make easy to learn language.
+          And you never proceed unless I understand the concept clearly. In between you also give mini projects to
+          complete which provide hands on experience. Thank you sir.
+        </p>
+
+      </div>
+      <div class="testimonial-box">
+        <div class="customer-detail">
+          <div class="customer-photo">
+            <img src="https://i.postimg.cc/sxd2xCD2/female-photo1.jpg" alt="" />
+            <p class="customer-name">Amelia Watson</p>
+          </div>
+        </div>
+        <div class="star-rating">
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+        </div>
+        <p class="testimonial-text">
+          I like the way you explain the concept, you teach everything practically which make easy to learn language.
+          And you never proceed unless I understand the concept clearly. In between you also give mini projects to
+          complete which provide hands on experience. Thank you sir.
+        </p>
+
+      </div>
+
+
+    </div>
+    <div class="more-testimonial-container">
+      <a href="testimonial.html" target="_blank" class="btn btn-primary">See More Stories</a>
+    </div>
+
+  </section>
+  <section id="contact">
+    <div class="contact-container container">
+      <div class="contact-img">
+        <img src="./images/contact.jpg" alt="" />
+      </div>
+
+      <div class="form-container">
+        <h2>Contact Us</h2>
+        <input type="text" placeholder="Your Name" />
+        <input type="email" placeholder="E-Mail" />
+        <textarea cols="30" rows="6" placeholder="Type Your Message"></textarea>
+        <a href="#" class="btn btn-primary">Submit</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- footer start -->
+  <footer class="footer">
+    <!-- Left hand side image and CompanyName-->
+    <div class="l-footer">
+      <h1>
+        <img src="https://i.postimg.cc/y62wcLBq/logo.png" alt="TechRavi">
+      </h1>
+      <p>
+        Discover the best in software courses here! Expert-led learning, hands-on projects, and a supportive community
+        await. Level up your skills and build a successful career in software development with us</p>
+    </div>
+
+    <!-- Right hand side Links-->
+    <ul class="r-footer">
+      <li>
+        <h2>Quick Links</h2>
+        <ul class="box">
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Pinterest</a></li>
+          <!-- <li><a href="#">Contract</a></li> -->
+        </ul>
+      </li>
+      <li>
+        <h2>Information</h2>
+        <ul class="box">
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Sales</a></li>
+          <!-- <li><a href="#">Contract</a></li> -->
+        </ul>
+      </li>
+      <li>
+        <h2>Information</h2>
+        <ul class="box">
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Sales</a></li>
+          <!-- <li><a href="#">Contract</a></li> -->
+        </ul>
+      </li>
+      <li>
+        <h2>Legal</h2>
+        <ul class="box">
+          <li><a href="privacyAndPolicy.html">Privacy Policy</a></li>
+          <li><a href="termsAndConditions.html">Terms of Use</a></li>
+          <li><a href="about.html">About</a></li>
+          <!-- <li><a href="#">Contract</a></li> -->
+        </ul>
+      </li>
+    </ul>
+    <div class="b-footer">
+      <p class="copy-right-p">&copy; 2023 Tech Ravi | All Rights Reserved</p>
+    </div>
+  </footer>
+  <!-- footer end -->
+
+
+
+
+  </div>
+</body>
+<!-- 
+    .................../ JS Code for smooth scrolling /...................... -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+  $(document).ready(function () {
+    // Add smooth scrolling to all links
+    $("a").on("click", function (event) {
+      // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== "") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+
+        // Store hash
+        var hash = this.hash;
+
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+        $("html, body").animate(
+          {
+            scrollTop: $(hash).offset().top,
+          },
+          800,
+          function () {
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          }
+        );
+      } // End if
+    });
+  });
+</script>
+
 </html>
