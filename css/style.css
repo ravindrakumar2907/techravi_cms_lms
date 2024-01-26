@@ -16,6 +16,10 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+ul {
+  margin-bottom: 0rem;
+}
+
 /* ///////////..utility classes../////////// */
 
 .container {
@@ -40,6 +44,8 @@ p {
   margin-top: 1em;
   text-transform: uppercase;
   font-weight: small;
+  border-color: #16a083;
+
 }
 
 .btn-primary {
@@ -49,6 +55,7 @@ p {
 
 .btn-primary:hover {
   background: #117964;
+  border-color: #117964;
   transition: background 0.3s ease-in-out;
 }
 
