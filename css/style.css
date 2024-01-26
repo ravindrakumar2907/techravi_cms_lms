@@ -24,6 +24,12 @@ body {
   margin: auto;
 }
 
+p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
 .btn {
   display: inline-block;
   padding: 0.5em 1.5em;
@@ -139,7 +145,7 @@ body {
   height: 50vh;
   background: linear-gradient(rgba(240, 240, 240, 0.144),
       rgba(255, 255, 255, 0.336)),
-    url("../images/testimonial.jpg");
+    url("../images/coding-demo.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -583,6 +589,11 @@ body {
 }
 
 .footer h2 {
+  font-weight: 400;
+  font-size: 19px;
+}
+
+.footer-h2 {
   font-weight: 400;
   font-size: 19px;
 }
