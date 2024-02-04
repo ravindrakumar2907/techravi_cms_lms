@@ -433,7 +433,8 @@ p {
 .course-menu-container {
   display: flex;
   flex-wrap: wrap;
-  padding: 50px 0px 30px 0px;
+  justify-content: space-evenly;
+  padding-top: 2rem;
 }
 
 .course-menu-container img {
@@ -445,10 +446,9 @@ p {
 }
 
 .card {
-  width: 22rem;
+  width: 30%;
   justify-content: space-evenly;
   margin-bottom: 3rem;
-  margin-right: 3rem;
 }
 
 .course-menu-item {
@@ -768,52 +768,12 @@ a:hover {
 
 /*upcoming workshop end here*/
 
-
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) {
   .card {
-    width: 100%;
+    width: 29%;
     justify-content: space-evenly;
     margin-bottom: 3rem;
-  }
-
-  .course-container {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-
-  }
-
-  .course-type {
-    margin-bottom: 1rem;
-  }
-
-  .about-img img {
-    display: block;
-    height: 300px;
-    max-width: 100%;
-    margin: auto;
-    object-fit: cover;
-    object-position: right;
-  }
-
-  .r-footer>* {
-    flex: 1;
-  }
-
-  .features {
-    flex-grow: 2;
-  }
-
-  .l-footer {
-    flex: 1 0px;
-  }
-
-  .r-footer {
-    flex: 2 0px;
-  }
 }
-
-@media screen and (min-width: 600px) {
   .course-type {
     margin-bottom: 1rem;
   }
@@ -926,6 +886,10 @@ a:hover {
     top: 5px;
     right: 15px;
     font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  .logoImg {
+    height: 50px;
   }
 
   .navbar-container input[type="checkbox"]:checked~.menu-items {
@@ -972,6 +936,12 @@ a:hover {
   .logoImg {
     height: 56px;
   }
+
+  .card {
+    width: 50%;
+    justify-content: space-evenly;
+    margin-bottom: 3rem;
+}
 }
 
 @media (max-width: 500px) {
@@ -1023,6 +993,11 @@ a:hover {
     font-size: 1.8rem;
     font-weight: 500;
   }
+  .card {
+    width: 50%;
+    justify-content: space-evenly;
+    margin-bottom: 3rem;
+}
 }
 
 @media (min-width: 769px) and (max-width: 1200px) {
@@ -1041,8 +1016,14 @@ a:hover {
   }
   
   .logoImg {
-    height: 56px;
+    height: 50px;
   }
+
+  .card {
+    width: 50%;
+    justify-content: space-evenly;
+    margin-bottom: 3rem;
+}
 }
 
 @media (orientation: landscape) and (max-height: 500px) {
