@@ -60,7 +60,7 @@ p {
 }
 
 .btn-primary {
-  color: #fff;
+  color: #ffffff;
   background: var(--tealLight);
 }
 
@@ -83,7 +83,7 @@ p {
   box-shadow: 0px 5px 10px 0px #aaa;
   /*position: fixed;*/
   width: 100%;
-  background: #fff;
+  background: #ffffff;
   color: #000;
   opacity: 0.90;
   padding-top: 5px;
@@ -124,12 +124,12 @@ p {
 
 .logo {
   order: 1;
-  font-size: 2.3rem;
+  font-size: 2.2rem;
   margin-bottom: 0.5rem;
 }
 
 .logoImg {
-  height: 50px;
+  height: 56px;
 }
 
 /* ............//// Showcase styling ////......... */
@@ -567,24 +567,26 @@ p {
   display: block;
   width: 100%;
   border: none;
-  border-bottom: 2px solid #ddd;
-  padding: 1rem 0;
+  border: 2px solid #ddd;
+  padding: 1rem;
   box-shadow: none;
   outline: none;
   margin-bottom: 1rem;
   color: #444;
   font-weight: 500;
+  border-radius: 5px;
 }
 
 .form-container textarea {
   display: block;
   width: 100%;
   border: none;
-  border-bottom: 2px solid #ddd;
+  border: 2px solid #ddd;
   color: #444;
   outline: none;
-  padding: 1rem 0;
+  padding: 1rem;
   resize: none;
+  border-radius: 5px;
 }
 
 .form-container h2 {
@@ -694,6 +696,74 @@ p {
 a:hover {
   color: white;
 }
+
+
+/*upcoming workshop*/
+.workshop-container {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.workshop-heading {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+  margin: 0;
+  text-align: center;
+}
+
+.workshop-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.workshop-image {
+  flex: 1;
+  max-width: 100%;
+  height: 40vh;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.workshop-details {
+  flex: 1;
+  padding: 0px 20px 20px 20px;
+}
+
+.workshop-details p {
+  line-height: 1.6;
+  color: #495057;
+}
+
+.workshop-timestamp {
+  width: 100%;
+  font-weight: 600;
+  color: #495057;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.workshop-register-btn {
+  width: 100%;
+  color: #fff;
+
+  text-align: center;
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.workshop-register:hover {
+  background-color: #218838;
+}
+
+/*upcoming workshop end here*/
+
 
 @media screen and (max-width: 600px) {
   .card {
