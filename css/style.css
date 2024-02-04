@@ -30,9 +30,9 @@ ul {
   margin-bottom: 0rem;
 }
 
-h2{
-    font-size: 1.5rem;
-    color: #555;
+h2 {
+  font-size: 1.5rem;
+  color: #555;
 }
 
 /* ///////////..utility classes../////////// */
@@ -150,7 +150,7 @@ p {
 .showcase-area {
   height: 50vh;
   background: linear-gradient(rgb(240 240 240 / 0%),
-  rgb(255 255 255 / 0%)), 
+      rgb(255 255 255 / 0%)),
     url("../images/el-hero.jpg");
   background-size: cover;
   background-position: center;
@@ -160,7 +160,7 @@ p {
 .workshop-showcase-area {
   height: 50vh;
   background: linear-gradient(rgb(240 240 240 / 0%),
-  rgb(255 255 255 / 0%)), 
+      rgb(255 255 255 / 0%)),
     url("../images/workshop1.jpg");
   background-size: cover;
   background-position: center;
@@ -170,11 +170,11 @@ p {
 .testimonial-showcase-area {
   height: 50vh;
   background: linear-gradient(rgb(240 240 240 / 0%),
-   rgb(255 255 255 / 0%)), 
-   url(../images/coding-demo.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+      rgb(255 255 255 / 0%)),
+    url(../images/coding-demo.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .sql-showcase-area {
@@ -768,12 +768,70 @@ a:hover {
 
 /*upcoming workshop end here*/
 
+@media (max-width: 500px) {
+  html {
+    font-size: 65%;
+  }
+
+  .navbar .menu-items li {
+    font-size: 1.6rem;
+  }
+
+  .testimonial-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .food-menu-container img {
+    margin: auto;
+  }
+
+  .food-menu-item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .form-container {
+    width: 90%;
+  }
+
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-img {
+    width: 90%;
+    margin: 3rem auto;
+  }
+
+  .logo {
+    position: absolute;
+    top: 06px;
+    right: 15px;
+    font-size: 3rem;
+  }
+
+  .navbar .menu-items li {
+    margin-bottom: 2.5rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+
+  .card {
+    width: 50%;
+    justify-content: space-evenly;
+    margin-bottom: 3rem;
+  }
+}
+
 @media screen and (min-width: 600px) {
   .card {
     width: 29%;
     justify-content: space-evenly;
     margin-bottom: 3rem;
-}
+  }
+
   .course-type {
     margin-bottom: 1rem;
   }
@@ -888,6 +946,7 @@ a:hover {
     font-size: 2rem;
     margin-bottom: 0.5rem;
   }
+
   .logoImg {
     height: 50px;
   }
@@ -932,7 +991,7 @@ a:hover {
     font-size: 2.2rem;
     margin-bottom: 0.5rem;
   }
-  
+
   .logoImg {
     height: 56px;
   }
@@ -941,64 +1000,9 @@ a:hover {
     width: 50%;
     justify-content: space-evenly;
     margin-bottom: 3rem;
+  }
 }
-}
 
-@media (max-width: 500px) {
-  html {
-    font-size: 65%;
-  }
-
-  .navbar .menu-items li {
-    font-size: 1.6rem;
-  }
-
-  .testimonial-container {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .food-menu-container img {
-    margin: auto;
-  }
-
-  .food-menu-item {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .form-container {
-    width: 90%;
-  }
-
-  .contact-container {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .contact-img {
-    width: 90%;
-    margin: 3rem auto;
-  }
-
-  .logo {
-    position: absolute;
-    top: 06px;
-    right: 15px;
-    font-size: 3rem;
-  }
-
-  .navbar .menu-items li {
-    margin-bottom: 2.5rem;
-    font-size: 1.8rem;
-    font-weight: 500;
-  }
-  .card {
-    width: 50%;
-    justify-content: space-evenly;
-    margin-bottom: 3rem;
-}
-}
 
 @media (min-width: 769px) and (max-width: 1200px) {
   .img-container h3 {
@@ -1014,16 +1018,617 @@ a:hover {
     font-size: 2.2rem;
     margin-bottom: 0.5rem;
   }
-  
+
   .logoImg {
     height: 50px;
   }
 
   .card {
-    width: 50%;
+    width: 30%;
     justify-content: space-evenly;
     margin-bottom: 3rem;
+  }
 }
+
+@media (min-width: 1200px) {
+
+  /* desktop mode............/// */
+
+  .navbar input[type="checkbox"],
+  .navbar .hamburger-lines {
+    display: none;
+  }
+
+  .navbar {
+    box-shadow: 0px 5px 10px 0px #aaa;
+    /*position: fixed;*/
+    width: 100%;
+    background: #ffffff;
+    color: #000;
+    opacity: 0.90;
+    padding-top: 5px;
+    height: 60px;
+    z-index: 12;
+  }
+
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+  }
+
+  .menu-items {
+    order: 2;
+    display: flex;
+  }
+
+  .menu-items li {
+    list-style: none;
+    margin-left: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+  }
+
+  .menu-items a {
+    text-decoration: none;
+    color: #444;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+  }
+
+  .menu-items a:hover {
+    color: #117964;
+    transition: color 0.3s ease-in-out;
+  }
+
+  .logo {
+    order: 1;
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .logoImg {
+    height: 56px;
+  }
+
+  /* ............//// Showcase styling ////......... */
+  .showcase-area-old {
+    height: 40vh;
+    background: linear-gradient(rgba(240, 240, 240, 0.144),
+        rgba(255, 255, 255, 0.336)),
+      url("https://i.postimg.cc/wT3TQS3V/header-image2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .showcase-area {
+    height: 40vh;
+    background: linear-gradient(rgba(240, 240, 240, 0.144),
+        rgba(255, 255, 255, 0.336)),
+      url("../images/el-hero.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .workshop-showcase-area {
+    height: 40vh;
+    background: linear-gradient(rgba(240, 240, 240, 0.144),
+        rgba(255, 255, 255, 0.336)),
+      url("../images/workshop1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .testimonial-showcase-area {
+    height: 40vh;
+    background: linear-gradient(rgba(240, 240, 240, 0.144),
+        rgba(255, 255, 255, 0.336)),
+      url("../images/coding-demo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .sql-showcase-area {
+    height: 40vh;
+    background: linear-gradient(rgba(240, 240, 240, 0.144),
+        rgba(255, 255, 255, 0.336)),
+      url("../images/workshop1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .showcase-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 1.6rem;
+  }
+
+  .main-title {
+    text-transform: uppercase;
+  }
+
+  /* ......//about us//...... */
+
+  #about {
+    padding: 50px 0;
+    background: #f5f5f7;
+  }
+
+  .about-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #about h2 {
+    font-size: 2.3rem;
+  }
+
+  #about p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+
+  #about .small {
+    font-size: 1.2rem;
+    color: #666;
+    font-weight: 600;
+  }
+
+  .radius-img {
+    border-radius: 1rem;
+  }
+
+  .about-img {
+    flex: 1 1 400px;
+    padding: 30px;
+    transform: translateX(150%);
+    animation: about-img-animation 1s ease-in-out forwards;
+  }
+
+  @keyframes about-img-animation {
+    100% {
+      transform: translate(0);
+    }
+  }
+
+  .about-text {
+    flex: 1 1 400px;
+    padding: 30px;
+    margin: auto;
+    transform: translate(-150%);
+    animation: about-text-animation 1s ease-in-out forwards;
+  }
+
+  @keyframes about-text-animation {
+    100% {
+      transform: translate(0);
+    }
+  }
+
+  .about-img img {
+    display: block;
+    height: 400px;
+    max-width: 100%;
+    margin: auto;
+    object-fit: cover;
+    object-position: right;
+  }
+
+
+  /* work shop  */
+  /* ......//about us//...... */
+
+  #workshop {
+    padding: 50px 0;
+    background: #b6c2c8de;
+  }
+
+  .workshop-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #workshop h2 {
+    font-size: 2.3rem;
+  }
+
+  #workshop p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+
+  #workshop .small {
+    font-size: 1.2rem;
+    color: #666;
+    font-weight: 600;
+  }
+
+  .radius-img {
+    border-radius: 1rem;
+  }
+
+  .workshop-img {
+    flex: 1 1 400px;
+    padding: 30px;
+    transform: translateX(150%);
+    animation: about-img-animation 1s ease-in-out forwards;
+  }
+
+  @keyframes workshop-img-animation {
+    100% {
+      transform: translate(0);
+    }
+  }
+
+  .workshop-text {
+    flex: 1 1 400px;
+    padding: 30px;
+    margin: auto;
+    transform: translate(-150%);
+    animation: about-text-animation 1s ease-in-out forwards;
+  }
+
+  @keyframes workshop-text-animation {
+    100% {
+      transform: translate(0);
+    }
+  }
+
+  .workshop-img img {
+    display: block;
+    height: 400px;
+    max-width: 100%;
+    margin: auto;
+    object-fit: cover;
+    object-position: right;
+  }
+
+  /* workshop end here */
+
+  /* ..........////Software Courses category///........... */
+
+  #course {
+    padding: 5rem 0 4rem 0;
+  }
+
+
+  #course h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    color: #555;
+  }
+
+  .course-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .course-container img {
+    display: block;
+    width: 100%;
+    margin: auto;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .img-container {
+    margin: 0 1rem;
+    position: relative;
+    border-radius: 1rem;
+  }
+
+  .img-content {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    z-index: 2;
+    text-align: center;
+    transition: all 0.3s ease-in-out 0.1s;
+  }
+
+  .img-content h3 {
+    color: #fff;
+    font-size: 2.2rem;
+  }
+
+  .img-content a {
+    font-size: 1.2rem;
+  }
+
+  .img-container::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.871);
+    opacity: 0;
+    z-index: 1;
+    transform: scaleY(0);
+    transform-origin: 100% 100%;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .img-container:hover::after {
+    opacity: 1;
+    transform: scaleY(1);
+  }
+
+  .img-container:hover .img-content {
+    opacity: 1;
+    top: 40%;
+  }
+
+  /* .........../Food Menu/............ */
+
+  .course-menu-heading {
+    text-align: center;
+    font-size: 3.4rem;
+    font-weight: 400;
+    color: #666;
+  }
+
+  .course-menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0px 30px 0px;
+  }
+
+  .course-menu-container img {
+    display: block;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .card {
+    width: 33%;
+    justify-content: space-evenly;
+    margin-bottom: 3rem;
+  }
+
+  .course-menu-item {
+    display: flex;
+    flex: 1 1 500px;
+    justify-content: space-evenly;
+    margin-bottom: 3rem;
+    justify-content: center;
+    align-items: baseline;
+  }
+
+  .course-description {
+    margin: auto 1.5rem;
+  }
+
+  .course-title {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #444;
+  }
+
+  .course-description p {
+    font-size: 1.4rem;
+    color: #555;
+    font-weight: 500;
+  }
+
+  .course-description .course-price {
+    color: #117964;
+    font-weight: 700;
+  }
+
+  /* ........./ Testimonial /.......... */
+
+  #testimonials {
+    padding: 5rem 0;
+    background: rgba(243, 243, 243);
+  }
+
+  .testimonial-title {
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 400;
+    color: #555;
+  }
+
+  .testimonial-container {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    padding: 1rem;
+  }
+
+  .more-testimonial-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    font-size: 1.6rem;
+  }
+
+  .testimonial-box .checked {
+    color: #ff9529;
+  }
+
+  .testimonial-box .testimonial-text {
+    margin: 1rem 0;
+    color: #444;
+  }
+
+  .testimonial-box {
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .customer-photo img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    margin: auto;
+  }
+
+  /* ........ Contact Us........... */
+
+  #contact {
+    padding: 5rem 0;
+    background: rgb(226, 226, 226);
+  }
+
+  .contact-container {
+    display: flex;
+    background: #fff;
+    border-radius: 5px;
+    padding-top: 1rem;
+  }
+
+  .contact-img {
+    width: 50%;
+  }
+
+  .contact-img img {
+    display: block;
+    height: 400px;
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+  }
+
+  .form-container {
+    padding: 1rem;
+    width: 50%;
+    margin: auto;
+  }
+
+  .form-container input {
+    display: block;
+    width: 100%;
+    border: none;
+    border: 2px solid #ddd;
+    padding: 1rem;
+    box-shadow: none;
+    outline: none;
+    margin-bottom: 1rem;
+    color: #444;
+    font-weight: 500;
+    border-radius: 5px;
+  }
+
+  .form-container textarea {
+    display: block;
+    width: 100%;
+    border: none;
+    border: 2px solid #ddd;
+    color: #444;
+    outline: none;
+    padding: 1rem;
+    resize: none;
+    border-radius: 5px;
+  }
+
+  .form-container h2 {
+    font-size: 2.7rem;
+    font-weight: 500;
+    color: #444;
+    margin-bottom: 1rem;
+    margin-top: -1.2rem;
+  }
+
+  .box a {
+    color: #999;
+  }
+
+  .h-box {
+    column-count: 2;
+    column-gap: 1.25em;
+  }
+
+
+  a:hover {
+    color: white;
+  }
+
+
+  /*upcoming workshop*/
+  .workshop-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+
+  .workshop-heading {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+  }
+
+  .workshop-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .workshop-image {
+    flex: 1;
+    max-width: 100%;
+    height: 40vh;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+
+  .workshop-details {
+    flex: 1;
+    padding: 0px 20px 20px 20px;
+  }
+
+  .workshop-details p {
+    line-height: 1.6;
+    color: #495057;
+  }
+
+  .workshop-timestamp {
+    width: 100%;
+    font-weight: 600;
+    color: #495057;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+
+  .workshop-register-btn {
+    width: 100%;
+    color: #fff;
+
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+  }
 }
 
 @media (orientation: landscape) and (max-height: 500px) {
