@@ -30,6 +30,10 @@ ul {
   margin-bottom: 0rem;
 }
 
+h2{
+    font-size: 1.5rem;
+    color: #555;
+}
 
 /* ///////////..utility classes../////////// */
 
@@ -107,7 +111,7 @@ p {
   list-style: none;
   margin-left: 1.5rem;
   margin-bottom: 0.5rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .menu-items a {
@@ -129,7 +133,7 @@ p {
 }
 
 .logoImg {
-  height: 56px;
+  height: 50px;
 }
 
 /* ............//// Showcase styling ////......... */
@@ -145,8 +149,8 @@ p {
 
 .showcase-area {
   height: 50vh;
-  background: linear-gradient(rgba(240, 240, 240, 0.144),
-      rgba(255, 255, 255, 0.336)),
+  background: linear-gradient(rgb(240 240 240 / 0%),
+  rgb(255 255 255 / 0%)), 
     url("../images/el-hero.jpg");
   background-size: cover;
   background-position: center;
@@ -155,8 +159,8 @@ p {
 
 .workshop-showcase-area {
   height: 50vh;
-  background: linear-gradient(rgba(240, 240, 240, 0.144),
-      rgba(255, 255, 255, 0.336)),
+  background: linear-gradient(rgb(240 240 240 / 0%),
+  rgb(255 255 255 / 0%)), 
     url("../images/workshop1.jpg");
   background-size: cover;
   background-position: center;
@@ -165,12 +169,12 @@ p {
 
 .testimonial-showcase-area {
   height: 50vh;
-  background: linear-gradient(rgba(240, 240, 240, 0.144),
-      rgba(255, 255, 255, 0.336)),
-    url("../images/coding-demo.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background: linear-gradient(rgb(240 240 240 / 0%),
+   rgb(255 255 255 / 0%)), 
+   url(../images/coding-demo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .sql-showcase-area {
@@ -199,7 +203,7 @@ p {
 /* ......//about us//...... */
 
 #about {
-  padding: 50px 0;
+  padding: 10px 0;
   background: #f5f5f7;
 }
 
@@ -209,7 +213,7 @@ p {
 }
 
 #about h2 {
-  font-size: 2.3rem;
+  font-size: 2rem;
 }
 
 #about p {
@@ -958,6 +962,16 @@ a:hover {
   .img-container {
     margin: 0;
   }
+
+  .logo {
+    order: 1;
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .logoImg {
+    height: 56px;
+  }
 }
 
 @media (max-width: 500px) {
@@ -1018,6 +1032,16 @@ a:hover {
 
   .img-container .btn {
     font-size: 0.7rem;
+  }
+
+  .logo {
+    order: 1;
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .logoImg {
+    height: 56px;
   }
 }
 
